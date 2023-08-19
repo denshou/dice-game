@@ -28,11 +28,12 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 5rem;
+  opacity: 1;
 }
 .big-box__right {
   width: 21.25rem;
   height: 27.5rem;
-  background-color: #bb7a96;
+  background-color: #d8afbe;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
@@ -40,6 +41,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 5rem;
+  opacity: 0.7;
 }
 
 .player-name {
@@ -87,6 +89,7 @@ body {
   border-radius: 20px;
   border: none;
   opacity: 0.7;
+  cursor: pointer;
 }
 .button1 {
   top: 3.5rem;
@@ -96,4 +99,11 @@ body {
 }
 .button3 {
   top: 30.5rem;
+}
+.dice {
+  position: absolute;
+  top: 12rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 18px;
 }

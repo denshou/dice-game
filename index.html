@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
@@ -12,25 +12,27 @@
     <div class="container">
       <div class="big-box__left">
         <h2 class="player-name">PLAYER 1</h2>
-        <p class="total-point">0</p>
+        <p class="total-point" id="player1total">0</p>
         <div class="current-box">
           <p class="current">CURRENT</p>
-          <p class="current-point">0</p>
+          <p class="current-point" id="player1current">0</p>
         </div>
       </div>
-
-      <button class="white-button button1">NEW GAME</button>
-      <button class="white-button button2">ROLL DICE</button>
-      <button class="white-button button3">HOLD</button>
 
       <div class="big-box__right">
         <h2 class="player-name">PLAYER 2</h2>
-        <p class="total-point">0</p>
+        <p class="total-point" id="player2total">0</p>
         <div class="current-box">
           <p class="current">CURRENT</p>
-          <p class="current-point">0</p>
+          <p class="current-point" id="player2current">0</p>
         </div>
       </div>
+
+      <button class="white-button button1" id="btn-newgame">NEW GAME</button>
+      <img src="assets/dice-hidden.png" class="dice" alt="" />
+      <button class="white-button button2" id="btn-rolldice">ROLL DICE</button>
+      <button class="white-button button3" id="btn-hold">HOLD</button>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
