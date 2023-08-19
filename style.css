@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+
+  width: 100%;
+  height: 100%;
+  background-color: #9e3157;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.big-box__left {
+  width: 21.25rem;
+  height: 27.5rem;
+  background-color: #d8afbe;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+}
+.big-box__right {
+  width: 21.25rem;
+  height: 27.5rem;
+  background-color: #bb7a96;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.player-name {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #333333;
+}
+
+.total-point {
+  font-size: 5rem;
+  margin-bottom: auto;
+  color: #c7365f;
+  margin-top: 0;
+}
+
+.current-box {
+  width: 11.125rem;
+  height: 5.5rem;
+  background-color: #c7365f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  color: white;
+  padding: 1rem;
+}
+.current {
+  font-size: 1rem;
+  margin: auto;
+}
+.current-point {
+  font-size: 2rem;
+  margin: auto;
+}
+
+.white-button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+  border: none;
+  opacity: 0.7;
+}
+.button1 {
+  top: 3.5rem;
+}
+.button2 {
+  top: 26.5rem;
+}
+.button3 {
+  top: 30.5rem;
+}
