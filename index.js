@@ -25,33 +25,45 @@ function appStart() {
     const rand = Math.floor(Math.random() * 6 + 1);
     if (myTurn === 1) {
       if (rand === 1) {
+        console.time();
         diceImg.src = "assets/dice-1.png";
+        console.timeEnd();
         current1 = 0;
         currentCount1.innerText = current1;
         right.style.opacity = 1;
         left.style.opacity = 0.7;
         return (myTurn = 0);
       } else if (rand === 2) {
+        console.time();
         diceImg.src = "assets/dice-2.png";
+        console.timeEnd();
         current1 = 0;
         currentCount1.innerText = current1;
         right.style.opacity = 1;
         left.style.opacity = 0.7;
         return (myTurn = 0);
       } else if (rand === 3) {
+        console.time();
         diceImg.src = "assets/dice-3.png";
+        console.timeEnd();
         current1 = current1 + 3;
         currentCount1.innerText = current1;
       } else if (rand === 4) {
+        console.time();
         diceImg.src = "assets/dice-4.png";
+        console.timeEnd();
         current1 = current1 + 4;
         currentCount1.innerText = current1;
       } else if (rand === 5) {
+        console.time();
         diceImg.src = "assets/dice-5.png";
+        console.timeEnd();
         current1 = current1 + 5;
         currentCount1.innerText = current1;
       } else if (rand === 6) {
+        console.time();
         diceImg.src = "assets/dice-6.png";
+        console.timeEnd();
         current1 = current1 + 6;
         currentCount1.innerText = current1;
       }
